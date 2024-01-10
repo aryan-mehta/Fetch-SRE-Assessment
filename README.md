@@ -31,39 +31,25 @@ This will include PyYAML and requests library, which we use to read YAML file an
 https://fetch.com/ - Status Code:200, Latency:107.54ms --> Status = UP\
 https://fetch.com/careers - Status Code:200, Latency:69.49ms --> Status = UP\
 https://fetch.com/some/post/endpoint - Status Code:403, Latency:92.02ms --> Status = DOWN\
-https://www.fetchrewards.com/ - Status Code:200, Latency:310.42ms --> Status = UP\
+https://www.fetchrewards.com/ - Status Code:200, Latency:310.42ms --> Status = UP
 
-Results after Test cycle #1 ends:\
+Results after Test cycle #1 ends:
 
 fetch.com has 67% availability percentage\
-www.fetchrewards.com has 100% availability percentage\
+www.fetchrewards.com has 100% availability percentage
 
 ---
 
 https://fetch.com/ - Status Code:200, Latency:75.20ms --> Status = UP\
 https://fetch.com/careers - Status Code:200, Latency:79.91ms --> Status = UP\
 https://fetch.com/some/post/endpoint - Status Code:403, Latency:67.73ms --> Status = DOWN\
-https://www.fetchrewards.com/ - Status Code:200, Latency:248.95ms --> Status = UP\
+https://www.fetchrewards.com/ - Status Code:200, Latency:248.95ms --> Status = UP
 
-Results after Test cycle #2 ends:\
+Results after Test cycle #2 ends:
 
 fetch.com has 67% availability percentage\
-www.fetchrewards.com has 100% availability percentage\
+www.fetchrewards.com has 100% availability percentage
 
 ---
 
 Ctrl+C detected. Exiting the program.
-
-
-## Thank you for the Opportunity
-I wanted to express my sincere gratitude for the opportunity to write the script for testing FETCH endpoints. It was truly an enjoyable experience, and I appreciate the trust and confidence you placed in me for this task.
-
-Working on this script allowed me to apply my skills and creativity to create a robust and efficient solution. I enjoyed the challenge of ensuring the script accurately tests the endpoints while maintaining readability and flexibility.
-
-If there are any additional improvements or modifications you'd like to discuss, please feel free to let me know. I am more than happy to refine the script further based on your feedback.
-
-Once again, thank you for the opportunity. I look forward to collaborating on future projects and tasks.
-
-Best regards,
-
-Aryan Mehta
