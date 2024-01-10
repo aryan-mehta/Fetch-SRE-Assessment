@@ -6,7 +6,8 @@
 2. Unzip the file.
 3. Open a terminal or command prompt in the directory where the unzipped folder is located.
 4. Create a virtual environment and activate it.
-```python -m venv venv
+```
+python -m venv venv
 # Activating on Windows: venv\Scripts\activate
 # Activating on Linux and macOS: source venv/bin/activate
 ```
