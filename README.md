@@ -20,16 +20,29 @@ Note: Make sure you have python added to your system environment variables, othe
 :::
 
 ## Output
+https://fetch.com/ - Status Code:200, Latency:107.54ms --> Status = UP
+https://fetch.com/careers - Status Code:200, Latency:69.49ms --> Status = UP
+https://fetch.com/some/post/endpoint - Status Code:403, Latency:92.02ms --> Status = DOWN
+https://www.fetchrewards.com/ - Status Code:200, Latency:310.42ms --> Status = UP
+
 Results after Test cycle #1 ends:
 
 fetch.com has 67% availability percentage
 www.fetchrewards.com has 100% availability percentage
----------------------------------------------------------------------------
+
+---
+
+https://fetch.com/ - Status Code:200, Latency:75.20ms --> Status = UP
+https://fetch.com/careers - Status Code:200, Latency:79.91ms --> Status = UP
+https://fetch.com/some/post/endpoint - Status Code:403, Latency:67.73ms --> Status = DOWN
+https://www.fetchrewards.com/ - Status Code:200, Latency:248.95ms --> Status = UP
+
 Results after Test cycle #2 ends:
 
 fetch.com has 67% availability percentage
 www.fetchrewards.com has 100% availability percentage
----------------------------------------------------------------------------
+
+---
 
 Ctrl+C detected. Exiting the program.
 
