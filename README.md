@@ -1,12 +1,20 @@
 # Fetch Take-Home Exercise — Site Reliability Engineering - Solution
 - I have used Python 3.10.11 to implement a program that checks the health of a set of HTTP endpoints from a given YAML file path as command line argument
 
-## Instructions to run the code - Environment Setup
+## Installation and Environment Setup
 1. Install Python 3.10.11 and pip 23.0.1 if you haven't already: https://www.python.org
-2. Unzip the file
+2. Unzip the file.
 3. Open a terminal or command prompt in the directory where the unzipped folder is located.
-4. Create a virtual environment using `python -m venv venv` and activate it on Windows using: `venv\Scripts\activate` or on Linux and macOS using `source venv/bin/activate`.
-5. Run `pip install -r requirements.txt` to install any necessary packages (if not installed). This will include PyYAML and requests library, which we use to read YAML file and make HTTP/HTTPS requests respectively.
+4. Create a virtual environment and activate it.
+```python -m venv venv
+# Activating on Windows: venv\Scripts\activate
+# Activating on Linux and macOS: source venv/bin/activate
+```
+5. Installed the required packages
+``` 
+pip install -r requirements.txt
+``` 
+This will include PyYAML and requests library, which we use to read YAML file and make HTTP/HTTPS requests respectively.
 
 ## Steps to execute the program -
 1. Open the terminal with your virtual environment being created earlier.
