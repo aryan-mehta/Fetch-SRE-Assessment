@@ -21,9 +21,9 @@ This will include PyYAML and requests library, which we use to read YAML file an
 1. Open the terminal with your virtual environment being created earlier.
 2. Copy the YAML file path - Full path along with file name. Or if in same directory, then just the name will be fine.
 3. Run the following command on your terminal:
-   ```
-   python fetch_sre_test_endpoints.py "<FILE_PATH_TO_YAML_FILE_IN_QUOTES>"
-   ```
+```
+python fetch_sre_test_endpoints.py "<FILE_PATH_TO_YAML_FILE_IN_QUOTES>"
+```
 5. Replace the `<FILE_PATH_TO_YAML_FILE_IN_QUOTES>` with your copied file path address.
 6. Hit enter to execute the program.
 
